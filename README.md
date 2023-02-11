@@ -1,5 +1,5 @@
 # MIPS-Assembly-Game
-Space Shooter game developer in assembly code.
+Space Shooter game developed in assembly code.
 
 To play, download MARS (http://courses.missouristate.edu/kenvollmar/mars/)
 
