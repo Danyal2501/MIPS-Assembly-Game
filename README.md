@@ -13,7 +13,7 @@ MARS allows us to map a framebuffer in memory to pixels on the screen using the 
 
 • Specify the actual on-screen width and height of each unit. The screenshot is configured to show each framebuffer unit as 8x8 block on your screen.
 
-• You need to set the dimensions of the overall display: configur the bitmap display to have width and height of 256 pixels, and units of 8x8 pixels.
+• You need to set the dimensions of the overall display: configure the bitmap display to have width and height of 256 pixels, and units of 8x8 pixels.
 
 • You need to tell MARS the base address for the framebuffer in hexadecimal. For this game, this is memory location is 0x10008000, as in the screenshot. This means that the unit in the top-left corner is at address 0x10008000, the first unit in the second row is at address 0x10008080 and the unit in the bottom-right corner is at address 0x10008ffc
 
