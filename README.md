@@ -15,6 +15,14 @@ MARS allows us to map a framebuffer in memory to pixels on the screen using the 
 
 • You need to set the dimensions of the overall display: in the example above the framebuffer is of size 32x32 units, since we configured the bitmap display to have width and height of 256 pixels, and units of 8x8 pixels.
 
-• You need to tell MARS the base address for the framebuffer in hexadecimal. In screenshot above, this is memory location 0x10008000 in the screenshot. This means that the unit in the top-left corner is at address 0x10008000, the first unit in the second row is at address 0x10008080 and the unit in the bottom-right corner is at address 0x10008ffc .
+• You need to tell MARS the base address for the framebuffer in hexadecimal. In screenshot above, this is memory location 0x10008000 in the screenshot. This means that the unit in the top-left corner is at address 0x10008000, the first unit in the second row is at address 0x10008080 and the unit in the bottom-right corner is at address 0x10008ffc
 
 • Remember to click “Connect to MIPS” so that the tool connects to the simulated CPU.
+
+• Also open Tools -> Keyboard and Display MMIO Simulator, to interact with game
+
+• Finally, Run -> Assemble, and run the program. Now, the game will be displayed in the Bitmap Display window, and your input will be taken from the Keyboard and Display MMIO Simulator
+
+Controls: 
+
+• W A S D to move ship, P to restart game.
