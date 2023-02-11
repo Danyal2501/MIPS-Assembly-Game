@@ -6,6 +6,7 @@ To play, download MARS (http://courses.missouristate.edu/kenvollmar/mars/)
 Instructions: 
 
 ![image](https://user-images.githubusercontent.com/85118557/218233952-297767e1-a5f0-4b43-99cd-9e91a3631c1f.png)
+
 [The MARS Bitmap Display]
 
 MARS allows us to map a framebuffer in memory to pixels on the screen using the Bitmap Display tool, which you launch by selecting it in the MARS menu: Tools → Bitmap Display. The Bitmap Display window is shown in Error! Reference source not found..
